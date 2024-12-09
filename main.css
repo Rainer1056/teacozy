@@ -1,0 +1,114 @@
+body {
+    font-family: helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+nav {
+    float: right;
+    position: relative;
+    right: 40px;
+}
+nav li {
+    list-style: none;
+    display: inline;
+    margin: 10px;
+}
+nav li a {
+    color: seashell;
+    text-decoration: underline;
+}
+li a:hover {
+    text-decoration: none;
+}
+.mainhead {
+    position: fixed;
+    top: 0px;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    z-index: 2;
+}
+.logo {
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    display: inline;
+}
+.banner {
+    position: relative;
+    left: 150px;
+    height: 700px;
+    width: 1200px;
+    background-image: url(images/img-mission-background.jpg);
+}
+.banner-content {
+    position: relative;
+    top: 50%;
+    width: 1200px;
+    height: 100px;
+    background-color: black;
+}
+.banner-content h2 {
+    margin: 0px;
+    padding-top: 10px;
+}
+.banner-content h4 {
+    margin-top: 5px;
+}
+.teacontainer {
+    width: 1000px;
+    height: 700px;
+    position: relative;
+    left: 250px;
+}
+.tea {
+    display: inline-block;
+    margin: 10px;
+}
+.tea h4 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.image {
+    height: 200px;
+    width: 300px;
+}
+.locationcontainer {
+    position: relative;
+    left: 150px;
+    height: 600px;
+    width: 1200px;
+    background-image: url(images/img-locations-background.jpg);
+}
+.locationcontainer h2 {
+    position: relative;
+    top: 15%;
+    margin: 15px;
+}
+.location {
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+    top: 12%;
+    width: 300px;
+    height: 275px;
+    opacity: 1;
+    background-color: black;
+    line-height: 1.75em;
+}
+.contact {
+    position: relative;
+    left: 35%;
+    width: 500px;
+    height: 200px;
+}
+.footer {
+    position: relative;
+    float: left;
+    margin-left: 20px;
+}
